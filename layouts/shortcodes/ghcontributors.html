@@ -1,0 +1,59 @@
+<style type="text/css">
+  .ghContributors {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px 0; /* Thay vì dùng margin-bottom cho item con */
+  }
+
+  .ghContributors > div {
+    width: 50%;
+    display: inline-flex;
+    align-items: center; /* Giúp avatar và text thẳng hàng */
+  }
+  .ghContributors > div label {
+    padding-left: 8px;
+    font-weight: 500;
+  }
+  .ghContributors > div span {
+    font-size: x-small;
+    padding-left: 4px;
+    color: #666;
+  }
+  .gh-avatar {
+    border-radius: 50%; /* Làm avatar tròn cho đẹp chuẩn GitHub */
+    object-fit: cover;
+  }
+</style>
+
+<div class="ghContributors">
+  {{ $url := .Get 0 }}
+  {{ $remote := resources.GetRemote $url }}
+
+  {{/* Kiểm tra xem có lấy được dữ liệu từ URL không */}}
+  {{ with $remote }}
+    {{ if .Err }}
+      <p>Error loading contributors: {{ .Err }}</p>
+    {{ else }}
+      {{ $contributors := transform.Unmarshal .Content }}
+      {{ range $contributors }}
+      <div>
+        <img
+          src="{{ .avatar_url }}"
+          class="gh-avatar"
+          width="32"
+          height="32"
+          alt="{{ .login }}"
+          style="vertical-align: middle;"
+        />
+        <label>
+          <a href="{{ .html_url }}" target="_blank" rel="noopener">@{{ .login }}</a>
+        </label>
+        <span class="contributions">{{ .contributions }} commits</span>
+      </div>
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <p>Cần cung cấp URL hợp lệ cho shortcode (ví dụ: api.github.com/...)</p>
+  {{ end }}
+</div>
