@@ -9,51 +9,16 @@ pre: " <b> 1.7. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
+### Tổng quan:
+Trong Tuần 7, nhằm chuẩn hóa tài liệu kỹ thuật cho đồ án, việc thực hành thiết kế và mô hình hóa sơ đồ kiến trúc các dịch vụ đám mây AWS đã được triển khai trên nền tảng draw.io theo đúng các quy chuẩn thiết kế chuyên nghiệp. Quá trình này tập trung vào việc tối ưu hóa tỷ lệ bố cục sơ đồ hệ thống, thiết lập quy trình quản lý mã nguồn sơ đồ dưới dạng file XML/PNG để lưu trữ chung, và thống nhất phong cách định dạng đồ họa trong toàn đội ngũ nhằm sẵn sàng tích hợp vào báo cáo tiến độ.
 
-### Mục tiêu tuần 7:
+### Các công việc triển khai trong tuần:
+* Thiết kế và mô hình hóa sơ đồ kiến trúc các dịch vụ đám mây AWS trên draw.io.
+* Tối ưu hóa tỷ lệ bố cục sơ đồ hệ thống theo quy chuẩn chuyên nghiệp.
+* Thiết lập quy trình quản lý file mã nguồn sơ đồ (XML/PNG) để lưu trữ chung.
+* Thống nhất phong cách định dạng đồ họa trong toàn đội ngũ.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 7:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được:
+* Hoàn thành mô hình hóa kiến trúc dịch vụ đám mây AWS một cách trực quan, chuẩn xác.
+* Đạt được sự thống nhất về quản lý file sơ đồ và phong cách đồ họa trong nhóm.
+* Sẵn sàng tích hợp các sơ đồ kiến trúc chuyên nghiệp vào báo cáo tiến độ dự án.

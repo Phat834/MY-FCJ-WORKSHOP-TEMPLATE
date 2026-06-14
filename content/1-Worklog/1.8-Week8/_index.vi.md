@@ -9,51 +9,16 @@ pre: " <b> 1.8. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
+### Tổng quan:
+Cuối cùng, vào Tuần 8, công tác hệ thống hóa lại toàn bộ các sơ đồ kiến trúc hệ thống, tài liệu đặc tả API và phần mã nguồn đã xây dựng trong suốt thời gian qua được tập trung hoàn thiện để phục vụ cho bộ hồ sơ báo cáo tiến độ giai đoạn (báo cáo giữa kỳ). Đồng thời, các buổi họp nhóm trực tuyến cũng được tổ chức nhằm đánh giá lại toàn diện lộ trình phát triển ứng dụng, từ đó thực hiện phân chia lại các module công việc một cách hợp lý cho giai đoạn tiếp theo dựa trên các định hướng thực tế từ đơn vị thực tập.
 
-### Mục tiêu tuần 8:
+### Các công việc triển khai trong tuần:
+* Hệ thống hóa lại toàn bộ sơ đồ kiến trúc, tài liệu đặc tả API và mã nguồn.
+* Chuẩn bị và hoàn thiện bộ hồ sơ báo cáo tiến độ giai đoạn (báo cáo giữa kỳ).
+* Tổ chức họp nhóm trực tuyến để đánh giá lộ trình phát triển.
+* Phân chia lại các module công việc cho giai đoạn tiếp theo.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được:
+* Hoàn thiện bộ hồ sơ báo cáo tiến độ giữa kỳ với đầy đủ sơ đồ, tài liệu và mã nguồn.
+* Đánh giá toàn diện và điều chỉnh lại lộ trình phát triển ứng dụng.
+* Hoàn thành việc phân chia công việc hợp lý cho các thành viên trong giai đoạn tiếp theo.
