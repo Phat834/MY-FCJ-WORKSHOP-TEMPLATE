@@ -5,9 +5,8 @@ weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
+
 
 ### Overview:
 Entering Week 3, the focus of the work was shifted to the storage system, concentrating on researching and deploying Amazon S3 and Amazon RDS services. The structure of business data tables was completely designed, and the database was successfully connected to the application.

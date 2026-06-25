@@ -5,9 +5,8 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
+
 
 ### Overview:
 Moving to Week 2, the work shifted to the practical phase with the deployment of core services on the AWS Cloud platform. Here, the initialization and configuration of the EC2 server instance were completed, combined with exploring the operation of the AWS Lambda serverless service. Besides, the system was also set up with the AWS Budgets cost monitoring tool and tested advanced AI models on Amazon Bedrock to shape smart features for the project.

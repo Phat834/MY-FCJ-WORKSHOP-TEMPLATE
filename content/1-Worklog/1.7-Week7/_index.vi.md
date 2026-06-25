@@ -5,9 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Tổng quan:
 Trong Tuần 7, nhằm chuẩn hóa tài liệu kỹ thuật cho đồ án, việc thực hành thiết kế và mô hình hóa sơ đồ kiến trúc các dịch vụ đám mây AWS đã được triển khai trên nền tảng draw.io theo đúng các quy chuẩn thiết kế chuyên nghiệp. Quá trình này tập trung vào việc tối ưu hóa tỷ lệ bố cục sơ đồ hệ thống, thiết lập quy trình quản lý mã nguồn sơ đồ dưới dạng file XML/PNG để lưu trữ chung, và thống nhất phong cách định dạng đồ họa trong toàn đội ngũ nhằm sẵn sàng tích hợp vào báo cáo tiến độ.

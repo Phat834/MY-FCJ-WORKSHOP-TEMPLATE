@@ -5,9 +5,8 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
+
 
 ### Tổng quan:
 Đến Tuần 4, việc đào sâu hạ tầng toàn cầu của AWS tiếp tục được thực hiện thông qua 3 phương thức tương tác chính bao gồm Console, CLI và SDK, đồng thời quán triệt các nguyên tắc bảo mật quan trọng với IAM Key. Song song đó, hướng nghiên cứu AI Agent được triển khai thông qua hệ sinh thái Kiro (IDE/CLI) để tìm giải pháp tối ưu quy trình phát triển sản phẩm, cũng như hoàn thành việc cấu hình AWS Budgets trên tài khoản cá nhân dựa trên các nguyên tắc tối ưu chi phí đám mây đã tiếp thu.

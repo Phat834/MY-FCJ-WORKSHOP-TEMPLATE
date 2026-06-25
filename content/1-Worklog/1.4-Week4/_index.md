@@ -5,9 +5,8 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
+
 
 ### Overview:
 By Week 4, deepening knowledge of AWS global infrastructure continued through 3 main interaction methods including Console, CLI, and SDK, while grasping important security principles with IAM Key. In parallel, the AI Agent research direction was implemented through the Kiro ecosystem (IDE/CLI) to find optimal solutions for the product development process, as well as completing the configuration of AWS Budgets on personal accounts based on the absorbed cloud cost optimization principles.

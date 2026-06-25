@@ -5,9 +5,8 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
+
 
 ### Tổng quan:
 Sang Tuần 2, công việc chuyển sang giai đoạn thực hành thực tế khi tiến hành triển khai các dịch vụ cốt lõi trên nền tảng AWS Cloud. Tại đây, việc khởi tạo và cấu hình thực thể máy chủ EC2 đã được hoàn thành, kết hợp tìm hiểu phương thức vận hành của dịch vụ không máy chủ AWS Lambda. Bên cạnh đó, hệ thống cũng được thiết lập công cụ giám sát chi phí AWS Budgets và thử nghiệm các mô hình AI tiên tiến trên Amazon Bedrock để định hình các tính năng thông minh cho đề tài.

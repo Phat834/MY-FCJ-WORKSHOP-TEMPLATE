@@ -5,9 +5,7 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 ### Overview:
 In Week 7, to standardize technical documentation for the project, the practice of designing and modeling architecture diagrams of AWS cloud services was implemented on the draw.io platform following professional design standards. This process focused on optimizing the layout ratio of system diagrams, establishing a workflow for managing diagram source codes as XML/PNG files for shared storage, and unifying graphic formatting styles across the team to be ready for integration into the progress report.
